@@ -1,0 +1,34 @@
+# Core LlamaIndex
+llama-index-core>=0.10.0
+
+# LLM Integration (Groq)
+llama-index-llms-groq>=0.1.0
+
+# Embedding Integration (Hugging Face)
+llama-index-embeddings-huggingface>=0.1.0
+
+# Data Loading
+llama-index-readers-file>=0.1.0
+
+# Hugging Face dependencies
+transformers>=4.40.0
+sentence-transformers>=2.6.0
+huggingface-hub>=0.23.0
+
+# PyTorch (necessário para embeddings e transformers)
+torch>=2.1.0
+
+# Garantir compatibilidade com Hugging Face / Torch
+numpy<2
+
+# Ambiente e Notebook
+python-dotenv
+ipykernel
+jupyter
+ipywidgets
+tqdm
+
+
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+
