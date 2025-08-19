@@ -17,7 +17,7 @@ O sistema utiliza uma arquitetura RAG com os seguintes componentes:
 
 - **LlamaIndex**: Framework para construção de aplicações RAG
 - **Gemini (Google)**: Modelo de linguagem para geração de respostas
-- **Hugging Face**: Modelos de embedding para busca semântica
+- **Gemini (Google)**: Modelos de embedding para busca semântica
 - **Vector Store**: Indexação vetorial dos documentos da base de conhecimento
 
 ## 🚀 Instalação
